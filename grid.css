@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100vh;
+    background-color: rgb(206, 215, 224);
+    margin: 10px;
+}
+
+.container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.container>div:nth-child(1n) {
+    background-color: aqua;
+}
+
+.container>div:nth-child(3n) {
+    background-color: rgb(120, 232, 76);
+}
+
+.container>div:nth-child(2n) {
+    background-color: rgb(87, 166, 231);
+}
+
+.container>div:nth-child(4n) {
+    background-color: rgb(168, 132, 201);
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felx Form</title>
+    <script src="https://kit.fontawesome.com/60c31c3281.js" crossorigin="anonymous"></script>
+    <style>
+        .max-width {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        nev {
+            display: flex;
+            justify-content: space-between;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        nev a {
+            text-decoration: none;
+            color: black;
+            display: inline-block;
+            padding: 1em;
+            font-size: 1.2rem;
+            transition: .3s;
+        }
+
+        nev a:hover {
+            background-color: rgb(93, 182, 182);
+            color: rgb(80, 80, 227);
+        }
+
+        .form-div {
+            display: flex;
+            justify-content: center;
+            padding: 50px 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        input {
+            padding: 1rem;
+            font-size: 1rem;
+            font-weight: 700;
+            margin: 10px 0;
+            border-radius: 10px;
+        }
+
+        input[type="submit"] {
+            background: #a5d1f7;
+            border: none;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nev>
+            <span>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact us</a>
+            </span>
+            <span>
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+                <a href="#"><i class="fa-solid fa-right-from-bracket"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </span>
+        </nev>
+    </header>
+    <section class="max-width">
+        <div class="form-div">
+            <form action="#">
+                <input type="email" placeholder="email">
+                <input type="password" placeholder="password">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
